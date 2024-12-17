@@ -155,4 +155,11 @@ export default {
     popularCities: '热门城市',
     selectLocation: '请从列表中选择一个地点',
   },
+  statistics: {
+    progress: '打包进度',
+    packedItems: '已打包: {{packedItems}} / {{totalItems}} 项',
+    percent: '%',
+    packed: '已打包',
+    pending: '待打包',
+  },
 };

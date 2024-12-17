@@ -44,7 +44,25 @@ Priority options:
 - essential: must-have items
 - recommended: recommended but optional items
 - optional: items that can be omitted depending on personal preferences
-` ;
+
+Please consider when generating your proposal:
+1. purpose of the trip and organization of activities
+2. type of accommodation and mode of transportation
+3. cultural characteristics of the destination
+4. special needs
+5. convenience of local shopping
+6. Baggage restrictions
+
+For quantity, please give specific suggestions, e.g:
+- Underwear and socks: one set per day + 2 spare sets
+- Tops: one every 2-3 days
+- Pants: one pair every 3-4 days
+
+To help users pack better, please provide in the recommendations:
+1. weather-related special suggestions
+2. local cultural considerations
+3. efficient packing tips
+4. a list of recommended items to buy locally` ;
     } else {
         return `你是一个专业的旅行规划专家，精通各种旅行场景的行李规划。请根据用户提供的详细行程信息，生成一个智能且个性化的行李清单。
 
@@ -85,6 +103,24 @@ Priority options:
 - essential：必需品，绝对不能少
 - recommended：推荐带，但可选
 - optional：可选，根据个人习惯
-`;
+
+生成建议时请考虑：
+1. 行程目的和活动安排
+2. 住宿类型和交通方式
+3. 目的地文化特点
+4. 特殊需求
+5. 当地购物便利性
+6. 行李限制
+
+对于数量，请给出具体建议，例如：
+- 内衣袜子：每天一套+2套备用
+- 上衣：每2-3天一件
+- 裤子：每3-4天一条
+
+为了帮助用户更好地打包，请在recommendations中提供：
+1. 天气相关的特别建议
+2. 当地文化注意事项
+3. 高效打包技巧
+4. 建议在当地购买的物品清单`;
     }
 })();
